@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+/* Body */
+body {
+  background-image: linear-gradient(#263354, #30416e);
+}
+/* Header */
+.title {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  flex-direction: row;
+  flex: 1;
+  color: white;
+  margin: 15px 10px 10px 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+.spacer {
+  display: flex;
+  flex-direction: row;
+  height: 5px;
+  background-color: white;
+  width: 85%;
+  margin: 0px 8% 20px 8%;
+  border-radius: 10px;
+}
+.skill-box-container {
+  flex-direction: row;
+  display: block;
+  align-items: center;
+  margin: 40px 10% 40px 10%;
+  flex: 1;
+  height: 80%;
+  min-width: 700px;
+  border-radius: 2%;
+  box-shadow: 2px 2px 50px;
+}
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  border-radius: 1.9%;
+  background-image: linear-gradient(#61a4ad, #007291);
+}
+.skill-container {
+  display: flex;
+  margin: 20px 15px 0px 15px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #30416e;
+  height: 15%;
+  min-height: 120px;
+  order: 1;
+}
+.exp-bar {
+  display: flex;
+  background-image: url("../Images/Background.png");
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.img-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 10px;
+  font-family: monospace;
+  font-size: 50px;
+  z-index: 1;
+  position: relative;
+}
+.info-box {
+  background-color: #465680;
+  display: flex;
+  flex: 1;
+  height: 100px;
+  margin: 25px 15px 25px 0px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px;
+  flex-direction: column;
+  min-width: 590px;
+  text-shadow: 2px 2px 4px black;
+  min-height: 100px;
+  z-index: 1;
+  position: relative;
+}
+.info-box-top {
+  display: flex;
+  flex: 0.5;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.skill-name-box {
+  color: black;
+  font-family: monospace;
+  display: flex;
+  width: 90%;
+  height: 100%;
+  justify-content: start;
+  font-size: 20px;
+  color: white;
+}
+.level-box {
+  font-family: monospace;
+  display: flex;
+  width: 5%;
+  height: 100%;
+  justify-content: center;
+  font-size: 17px;
+  color: white;
+}
+.level-variable {
+  color: white;
+  font-family: monospace;
+  display: flex;
+  width: 10%;
+  height: 100%;
+  justify-content: center;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.info-box-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.x-box {
+  height: 100%;
+  width: 5%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill-description-box {
+  color: black;
+  font-family: monospace;
+  display: flex;
+  width: 95%;
+  height: 100%;
+  justify-content: flex-start;
+  font-size: 16px;
+  margin-top: 3px;
+  color: white;
+}
+.exp-button-container {
+  color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+  margin: 5px 0px 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-style: solid;
+  border-color: black;
+  order: 2;
+  text-align: center;
+}
+.exp-button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  background-image: linear-gradient(#007291, #30416e);
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  order: 2;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+  box-shadow: 5px 5px 20px black;
+}
+.exp-button {
+  color: greenyellow;
+  font-size: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  opacity: 80%;
+  cursor: pointer;
+}
+.exp-button:hover {
+  color: greenyellow;
+  opacity: 100%;
+  cursor: pointer;
+}
+.exp-button:focus {
+  outline: none;
+}

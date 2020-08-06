@@ -1,0 +1,49 @@
+<DOCTYPE html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/skillSheet.css" />
+  </head>
+  <body class="body">
+    <div id="header-box">
+      <div class="title">Current Skills</div>
+      <div class="spacer"></div>
+    </div>
+    <div class="skill-box-container">
+      <div class="skill-box">
+        <div class="exp-button-container">
+          <div class="exp-button-box">
+            <button class="exp-button" id="expButton"></button>
+          </div>
+        </div>
+        <!-- Start Reading Skill -->
+        <div class="skill-container">
+          <div class="exp-bar">
+            <div class="img-box">
+              <img
+                src="../Images/Book.png"
+                alt="img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+            <div class="info-box">
+              <div class="info-box-top">
+                <div class="skill-name-box">Reading</div>
+                <div class="level-box">LV:</div>
+                <div class="level-variable" id="skill-level-1"></div>
+              </div>
+              <div class="info-box-bottom">
+                <div class="x-box"></div>
+                <div class="skill-description-box">
+                  This skill acesses one's ability, speed, and comprehension of
+                  books they read.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Reading Skill -->
+      </div>
+    </div>
+    <script src="JavaScript/skillLevel.js"></script>
+  </body>
+</DOCTYPE>
