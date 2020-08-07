@@ -1,42 +1,44 @@
 <DOCTYPE html>
-    <head>
-        <link rel="stylesheet" type ="text/css" href="CSS/questSheet.css"></head>
-    </head> 
-    <body>
-        <div id="quest-Accept-Model" class="quest-Model">
-            <div class="quest-Model-Content">
-                <p>Quest Accepted</p>
-            </div>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/questSheet.css" />
+  </head>
+  <body>
+    <div id="quest-Accept-Model" class="quest-Model">
+      <div class="quest-Model-Content">
+        <p>Quest Accepted</p>
+      </div>
+    </div>
+    <header>
+      <div class="title">Quests</div>
+      <div class="spacer"></div>
+    </header>
+    <div class="quest-Box-Container">
+      <div class="quest-Box">
+        <div class="quest-Box-Top">
+          <div class="quest-Name-Box">Quest: Read a Book</div>
+          <div class="quest-Type-Box">Type: Intellegence</div>
         </div>
-        <header>
-            <div class="title">Quests</div>
-            <div class="spacer"></div>
-        </header>
-        <div class="quest-Box-Container">
-            <div class="quest-Box">
-                <div class="quest-Box-Top">
-                    <div class="quest-Name-Box">Quest: Read a Book </div>
-                    <div class="quest-Type-Box"> Type: Intellegence </div>
-                </div>
-                <div class="quest-Box-Bottom">
-                    <div class="description-Box">read a book of your choice. You must turn the quest in before the given time to earn experience.</div>
-                    <div class="reward-Box">
-                        <div class="reward-Box-Title">Rewards</div>
-                        <div class="reward-Box-Content">
-                            +100 Experience
-                        </div>
-                    </div>
-                </div>
+        <div class="quest-Box-Bottom">
+          <div class="description-Box">
+            Read a book of your choice. Turn the quest in to earn experience
+          </div>
+          <div class="reward-Box">
+            <div class="reward-Box-Title">Rewards</div>
+            <div class="reward-Box-Content">
+              +100 Experience
             </div>
-            <div class="quest-Box-Actions">
-                <button class="accept-Box-Button" id="button-Accept">
-                    <div class="accept-Box" id="Accept">Accept Quest</div>
-                </button>
-                <button class="decline-Box-Button" id="button-Decline">
-                    <div class="decline-Box" id="Decline">Decline Quest</div>
-                </button>
-            </div>
+          </div>
         </div>
-        <script src="JavaScript/questSheet.js"></script>
-    </body>
+      </div>
+      <div class="quest-Box-Actions">
+        <button class="accept-Box-Button" id="button-Accept">
+          <div class="accept-Box" id="Accept">Accept Quest</div>
+        </button>
+        <button class="decline-Box-Button" id="button-Decline">
+          <div class="decline-Box" id="Decline">Decline Quest</div>
+        </button>
+      </div>
+    </div>
+    <script src="JavaScript/questSheet.js"></script>
+  </body>
 </DOCTYPE>
