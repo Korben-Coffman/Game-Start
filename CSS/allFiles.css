@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-shadow: 2px 2px 4px black;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: none;
+}
+button:focus {
+  outline: none;
+}
+.nav-bar {
+  width: 90%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  border-color: black;
+  background-color: #344859;
+  border-width: 2px;
+  border-style: solid;
+  margin: -5px 5% 0px 5%;
+  color: white;
+}
+.quest-Sheet-Nav {
+  height: 100%;
+  width: 33.5%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+.skill-Sheet-Nav {
+  height: 100%;
+  width: 33.3%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+.status-Screen-Nav {
+  height: 100%;
+  width: 33.3%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+.status-Screen-Nav-Button {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.status-Screen-Nav-Button:hover {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.status-Screen-Nav-Button:disabled {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: default;
+  color: white;
+}
+.skill-Sheet-Nav-Button {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.skill-Sheet-Nav-Button:hover {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.skill-Sheet-Nav-Button:disabled {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: default;
+  color: white;
+}
+.quest-Sheet-Nav-Button {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.quest-Sheet-Nav-Button:hover {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.quest-Sheet-Nav-Button:disabled {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: default;
+  color: white;
+}

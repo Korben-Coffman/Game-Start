@@ -68,10 +68,10 @@ button:focus {
   display: block;
   height: 80%;
   flex-direction: column;
-  margin: 40px 10% 40px 10%;
+  margin: 40px 10% 20px 10%;
   justify-content: center;
   align-items: center;
-  border-radius: 5%;
+  border-radius: 2%;
   min-width: 760px;
   min-height: auto;
   box-shadow: 2px 2px 50px;

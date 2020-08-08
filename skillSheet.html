@@ -1,6 +1,7 @@
 <DOCTYPE html>
   <head>
     <link rel="stylesheet" type="text/css" href="CSS/skillSheet.css" />
+    <link rel="stylesheet" type ="text/css" href="CSS/allFiles.css"></link>
   </head>
   <body class="body">
     <div id="header-box">
@@ -9,11 +10,6 @@
     </div>
     <div class="skill-box-container">
       <div class="skill-box">
-        <div class="exp-button-container">
-          <div class="exp-button-box">
-            <button class="exp-button" id="expButton"></button>
-          </div>
-        </div>
         <!-- Start Reading Skill -->
         <div class="skill-container">
           <div class="exp-bar">
@@ -42,6 +38,32 @@
           </div>
         </div>
         <!-- End Reading Skill -->
+        <div class="exp-button-container">
+          <div class="exp-button-box">
+            <button class="exp-button" id="expButton"></button>
+          </div>
+        </div>
+        <div class="clear-Data-Container">
+          <div class="clear-Data-Box">
+            <button class="clear-Data-Button" id="clearDataButton">Clear Data</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-Bar">
+      <div class="status-Screen-Nav">
+          <button class="status-Screen-Nav-Button" onclick="window.location.href='statusScreen.html'">
+              <a href="statusScreen.html"></a>
+              Status
+          </button>
+      </div>
+      <div class="skill-Sheet-Nav">
+          <button class="skill-Sheet-Nav-Button" onclick="window.location.href='skillSheet.html'">
+              Skills
+          </button>
+      </div>
+      <div class="quest-Sheet-Nav">
+          <button class="quest-Sheet-Nav-Button" onclick="window.location.href='questSheet.html'">Quests</button>
       </div>
     </div>
     <script src="JavaScript/skillLevel.js"></script>
